@@ -6,4 +6,4 @@ plotly
 pymysql
 streamlit-tags
 pdfminer3
-
+nltk
