@@ -6,7 +6,6 @@ nltk.download('stopwords')
 import pandas as pd
 import time, datetime
 from pyresparser import ResumeParser
-from resume_parser import resumeparse
 from streamlit_tags import st_tags
 from PIL import Image
 import pymysql
