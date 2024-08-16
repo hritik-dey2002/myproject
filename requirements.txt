@@ -1,3 +1,4 @@
+nltk
 pdfminer3
 pyresparser
 streamlit
