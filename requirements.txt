@@ -3,8 +3,11 @@ pyresparser
 streamlit
 pandas
 pafy
+plotly
 pymysql
 streamlit-tags
 Pillow
+youtube-dl
+nltk
 pdfminer3
-resume_parser
+spacy==2.3.5
