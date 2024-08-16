@@ -7,6 +7,5 @@ plotly
 pymysql
 streamlit-tags
 Pillow
-youtube-dl
 pdfminer3
 resume_parser
