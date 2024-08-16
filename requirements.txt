@@ -8,6 +8,5 @@ pymysql
 streamlit-tags
 Pillow
 youtube-dl
-nltk
 pdfminer3
 resume_parser
