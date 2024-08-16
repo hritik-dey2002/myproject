@@ -1,3 +1,4 @@
+spacy==2.3.5
 pdfminer3
 pyresparser
 streamlit
@@ -7,5 +8,4 @@ pymysql
 streamlit-tags
 Pillow
 pdfminer3
-spacy==2.3.5
 resume_parser
