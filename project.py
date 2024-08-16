@@ -1,8 +1,11 @@
 import streamlit as st
+# import spacy
+# spacy.load('en_core_web_sm')
 
-
+import pandas as pd
 import time, datetime
 from pyresparser import ResumeParser
+from resume_parser import resumeparse
 from streamlit_tags import st_tags
 from PIL import Image
 import pymysql
@@ -167,7 +170,11 @@ def run():
             if admin_user=='admin' and admin_password=='admin123':
                 st.success("welcome admin")
 
-                
+                cursor.execute('''SELECT*FROM user_data4''')
+                data = cursor.fetchall()
+                st.header("**User's Data**")
+                df = pd.DataFrame(data, columns=['ID', 'Name', 'Email', 'Timestamp', 'Total Page', 'Actual Skills'])
+                st.dataframe(df)
  
                 st.balloons()
 
