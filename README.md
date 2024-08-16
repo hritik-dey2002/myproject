@@ -1,1 +1,1 @@
-# myproject
+pip install -r requirements.txt
