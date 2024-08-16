@@ -1,6 +1,5 @@
 import streamlit as st
-import spacy
-spacy.load('en_core_web_sm')
+
 
 import pandas as pd
 import time, datetime
