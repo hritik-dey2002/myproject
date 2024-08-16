@@ -1,5 +1,7 @@
 import streamlit as st
 
+import nltk
+nltk.download('stopwords')
 
 import pandas as pd
 import time, datetime
