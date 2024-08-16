@@ -1,6 +1,6 @@
 import streamlit as st
 
-import pandas as pd
+
 import time, datetime
 from pyresparser import ResumeParser
 from streamlit_tags import st_tags
@@ -167,11 +167,7 @@ def run():
             if admin_user=='admin' and admin_password=='admin123':
                 st.success("welcome admin")
 
-                cursor.execute('''SELECT*FROM user_data4''')
-                data = cursor.fetchall()
-                st.header("**User's Data**")
-                df = pd.DataFrame(data, columns=['ID', 'Name', 'Email', 'Timestamp', 'Total Page', 'Actual Skills'])
-                st.dataframe(df)
+                
  
                 st.balloons()
 
