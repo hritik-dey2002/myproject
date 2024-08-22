@@ -1,7 +1,8 @@
 import streamlit as st
 import spacy
+import nltk
 spacy.load('en_core_web_sm')
-
+nltk.download('stopwords')
 import pandas as pd
 import time, datetime
 from pyresparser import ResumeParser
@@ -12,7 +13,6 @@ from pdfminer3.pdfinterp import PDFPageInterpreter
 from pdfminer3.converter import TextConverter
 from streamlit_tags import st_tags
 from PIL import Image
-import pymysql
 import plotly.express as px
 from plotly import optional_imports
 # from pdfminer.high_level import extract_text
