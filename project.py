@@ -49,6 +49,7 @@ def run():
                             st.text('Name: ' + resume_data['name'])
                             st.text('Email: ' + resume_data['email'])
                             st.text('Resume pages: ' + str(resume_data['no_of_pages']))
+                            st.text('Experience: ' + str(resume_data['total_experience']))
                         except:
                             pass
 
